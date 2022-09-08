@@ -1,4 +1,3 @@
-import { NextPage } from 'next'
 import AboutMe from '../components/aboutMe/aboutMe'
 import Footer from '../components/footer/footer'
 import InImage from '../components/imageText/inImage'

@@ -1,6 +1,4 @@
 import Image, { ImageProps } from 'next/image'
-import probe, { ProbeResult } from 'probe-image-size'
-import { useEffect, useState } from 'react'
 
 function ResponsiveImage({
   src,

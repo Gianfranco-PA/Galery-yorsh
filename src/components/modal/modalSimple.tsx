@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import { IoClose } from 'react-icons/io5'
 import FillImage from '../listImage/fillImage'
 
