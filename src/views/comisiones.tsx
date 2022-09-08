@@ -5,6 +5,7 @@ import imgPrincipal from '../../resources/images/Comision-TituloM1440.jpg'
 import ListImage from '../components/listImage/listImage'
 import Tweet from '../models/tweet'
 import ModalSimple from '../components/modal/modalSimple'
+import Footer from '../components/footer/footer'
 
 type Props = { tweets: Array<Tweet> }
 const Comisiones = ({ tweets }: Props) => {
@@ -32,6 +33,7 @@ const Comisiones = ({ tweets }: Props) => {
       <br />
       <ListImage data={data} open={openModal} setOpen={modalActivator} />
       <ModalSimple link={imagen} open={openModal} setOpen={setOpenModal} />
+      <Footer />
       <style jsx>{`
         .tituloPrincipal {
           font-size: 4em;
